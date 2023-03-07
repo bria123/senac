@@ -1,0 +1,32 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Aula 9 Ex 3</title>
+    </head>
+    <body>
+        <script>
+            var vetor = new Array(10)
+            var total = 0
+            var pagamento
+
+            for(var i = 0; i < vetor.length; i++) {
+                vetor[i] = new Array(prompt("Digite o valor do Produto " + i))
+                vetor[i] = parseInt(vetor[i])
+                
+                total += vetor[i]
+
+                document.write('Valores R$ : ' + vetor[i] + '<br>')
+            }
+
+            document.write( '<br>' + 'Valor Total dos Produtos R$:  ' + total)
+
+            pagamento = prompt("Pagamento Débito ou Crédito - Digite 'sim' para Crédito , e digite 'd' Débito")
+            if(pagamento === "sim"){
+                document.write( '<br>' + 'Pagamento Efetuado no Crédito')
+            } else{
+                document.write('<br>' + 'Pagamento Efetuado no Débito')
+            }
+
+        </script>
+    </body>
+</html>
