@@ -1,0 +1,77 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    width: 960px;
+    height: 150px;
+    margin: auto;
+}
+#logo{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+#logo img{
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+}
+#menu{
+    width: 760px;
+    height: 80px;
+    float: right;
+    text-align: center;
+    word-spacing: 20px;
+    color: black;
+    margin-top: 50px;
+}
+#menu a{
+    text-decoration: none;
+}
+#menu a:hover{
+    color: brown;
+}
+#banner{
+    width: 960px;
+    height: 400px;
+    margin: auto;
+    background-color: brown;   
+}
+#propaganda{
+    width: 960px;
+    height: 200px;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+#conteudo{
+    width: 960px;
+    height: 600px;
+    margin: auto;
+    background-color: chartreuse;
+}
+#esquerda{
+    width: 400px;
+    height: 600px;
+    float: left;
+    background-color: rgb(73, 9, 106);
+}
+#direita{
+    width: 400px;
+    height: 600px;
+    float: right;
+    background-color: rgb(16, 159, 88);
+}
+#rodape{
+    width: 960px;
+    height: 90px;
+    margin:auto;
+    background-color: black;
+}
+
+
+
+
+
