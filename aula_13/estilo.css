@@ -34,41 +34,55 @@
     color: brown;
 }
 #banner{
-    width: 960px;
+    width: 100%;
     height: 400px;
-    margin: auto;
-    background-color: brown;   
+    margin: auto;   
+}
+#banner img{
+    width: 100%;
 }
 #propaganda{
     width: 960px;
     height: 200px;
     margin: auto;
-    background-color: aquamarine;
+}
+#propaganda img{
+    margin: 10px 80px 50px 40px;
 }
 
 #conteudo{
     width: 960px;
     height: 600px;
     margin: auto;
-    background-color: chartreuse;
 }
 #esquerda{
     width: 400px;
     height: 600px;
     float: left;
-    background-color: rgb(73, 9, 106);
 }
 #direita{
     width: 400px;
     height: 600px;
     float: right;
-    background-color: rgb(16, 159, 88);
 }
 #rodape{
-    width: 960px;
+    width: 100%;
     height: 90px;
     margin:auto;
     background-color: black;
+}
+.estilizacao{
+    text-align: justify;
+}
+.titulo{
+    text-align: left;
+    font-size: 22px;
+    color: darkgoldenrod;
+}
+.paragrafoRodape{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
 }
 
 
